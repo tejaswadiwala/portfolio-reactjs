@@ -1,0 +1,96 @@
+.App { 
+  text-align: center;
+  font-family: "Helvetica";
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.skills-heading {
+  font-size: 21px;
+}
+
+.contacts-heading {
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.container {
+  flex: 1;
+}
+
+.pad {
+  padding-top: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  padding-bottom: 25px;
+  color: #3bb1bf;
+}
+
+.icons {
+  color: #3bb1bf;
+  text-decoration: none
+}
+
+.icons-body {
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  box-sizing: content-box;  
+  width: 100px;
+  height: 25px;
+  padding: 16px;
+  display: inline-block;
+  font-size: 25px;
+  color: #000;
+}
+
+nav a:link {
+  color:black;
+  text-decoration-line: inherit;
+}
+
+nav a:visited{
+  text-decoration: inherit;
+  color: #3bb1bf;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+nav a:active {
+  text-decoration: underline;
+  color: darkturquoise;
+}
+
+.image-round {
+  padding-top: 15px;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 30px;
+}
+
+p b { 
+  font-family: BrothersideSignature;
+}
+
+@font-face {
+  font-family: BrothersideSignature;
+  src: url("/portfolio/BrothersideSignature-w13o6.otf") format("otf");
+}
+
