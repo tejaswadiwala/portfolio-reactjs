@@ -19,9 +19,6 @@ const Footer = () => (
         </a>
         </p>
     </div>
-    <div className="footer">
-        &#169; 2020
-    </div> 
     </>
 );
 

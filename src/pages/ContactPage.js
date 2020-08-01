@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ContactPage = () => (
     <>
     <br />
+    <font color="#2F4F4F">
     <h2>Contact Me</h2>
     <span className="contacts-heading">
         <u>Email:</u><br />
@@ -23,6 +24,9 @@ const ContactPage = () => (
             <FontAwesomeIcon className="icons-body" icon={faGithub} />
         </a> <br /><br />
     </span>
+
+    <br />Website under construction, More content Coming Soon.
+    </font>
     </>
 );
 

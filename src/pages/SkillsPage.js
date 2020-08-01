@@ -3,6 +3,7 @@ import React from 'react';
 const SkillsPage = () => (
     <>
      <br/>
+     <font color="#2F4F4F">
      <div>
     <h2>Skills</h2>
     <span className="skills-heading">
@@ -11,10 +12,11 @@ const SkillsPage = () => (
         <i>(familiar)</i>:<b> C#, Swift, Haxe, COBOL, RPG </b> <br/><br/>
 
         <u>Web Development:</u> <br />
-        <b>HTML, CSS, JavaScript, PHP</b><br/> <br />
+        <i> (front-end)</i>:<b>HTML, CSS, React.js, JavaScript</b><br/> 
+        <i>(back-end)</i>:<b> Node.js, PHP</b><br/><br />
 
         <u>Databases:</u> <br />
-        <b>MySQL, Microsoft SQL Server, Oracle SQL Developer, DB2</b><br/> <br />
+        <b>MySQL, DB2, MongoDB</b><br/> <br />
 
         <u>Tools:</u> <br />
         <b>Microsoft Power BI, Unity, Google Colab, DBMoto, Visual Studio, Eclipse</b><br/> <br />
@@ -23,7 +25,9 @@ const SkillsPage = () => (
         <b>Microsoft Office 365, Git</b><br/> <br />
         
     </span>
+    <br />Website under construction, More content Coming Soon.
     </div>
+    </font>
     </>
 );
 
