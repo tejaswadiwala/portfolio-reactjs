@@ -9,6 +9,7 @@ const ContactPage = () => (
     <h2>Contact Me</h2>
     <span className="contacts-heading">
         <u>Email:</u><br />
+        <a href="mailto:tejaswadiwala@gmail.com"><b>tejaswadiwala@gmail.com</b></a> <br />
         <a href="mailto:twadiwal@lakeheadu.ca"><b>twadiwal@lakeheadu.ca</b></a> <br /> <br />
 
         <u>Cell:</u><br />
