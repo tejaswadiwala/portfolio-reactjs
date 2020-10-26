@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../Resume_Tejas_Wadiwala.pdf';
+import Resume from '../Resume_Tejas_Wadiwala.docx';
 
 
 const ResumePage = () => (
