@@ -1,7 +1,6 @@
 import React from 'react';
 import Photo from '../photo.jpeg';
 
-
 const HomePage = () => (
     <>
     <font color="#2F4F4F">
