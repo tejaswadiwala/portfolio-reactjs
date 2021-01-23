@@ -5,6 +5,8 @@ import {
   Switch,
 } from 'react-router-dom';
 import './App.css';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
 import NavBar from './NavBar';
 import HomePage from './pages/HomePage';
 import SkillsPage from './pages/SkillsPage';
@@ -13,6 +15,8 @@ import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './pages/Footer';
+
+Amplify.configure(awsconfig);
 
 class App extends Component {
   render(){
