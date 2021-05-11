@@ -15,6 +15,7 @@ import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './pages/Footer';
+import MyWork from './pages/MyWork'
 
 Amplify.configure(awsconfig);
 
@@ -32,6 +33,7 @@ class App extends Component {
                 <Route path="/projects" component={ProjectsPage} />
                 <Route path="/resume" component={ResumePage} />
                 <Route path="/contact" component={ContactPage} />
+                <Route path = "/mywork" component={MyWork} />
                 <Route component={NotFoundPage} />
               </Switch>
             </div>
